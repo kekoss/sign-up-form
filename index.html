@@ -7,6 +7,87 @@
     <title>Sign-up form</title>
   </head>
   <body>
+    <div class="signup__container">
+      <div class="signup__logo">
+        <a href="#" class="signup__logo-link"
+          ><i class="fa-solid fa-user"></i> <span>Lorem</span></a
+        >
+      </div>
+      <div class="signup__content">
+        <h2 class="signup__content-title">Sign-up Form</h2>
+        <form action="" method="" class="signup__form">
+          <label for="first-name"
+            >FIRST NAME
+            <input
+              type="text"
+              name="first-name"
+              id="first-name"
+              required
+              placeholder="Your name"
+          /></label>
+          <label for="last-name">
+            LAST NAME
+            <input
+              type="text"
+              name="last-name"
+              id="last-name"
+              required
+              placeholder="Your last name"
+            />
+          </label>
+          <label for="email">
+            EMAIL
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="Your email"
+            />
+          </label>
+          <label for="tel">
+            PHONE NUMBER
+            <input
+              type="tel"
+              name="tel"
+              id="tel"
+              required
+              placeholder="Your number"
+            />
+          </label>
+          <label for="password">
+            PASSWORD
+            <input
+              type="password"
+              name="password"
+              id="password"
+              required
+              placeholder="Enter your password"
+            />
+          </label>
+          <label for="confirm-password">
+            CONFIRM PASSWORD
+            <input
+              type="password"
+              name="confirm-password"
+              id="confirm-password"
+              required
+              placeholder="Confirm your password"
+            />
+          </label>
+          <button type="submit" class="signup__form-button">
+            Create Account
+          </button>
+        </form>
+        <p class="signup__form-login">
+          Already have an account? <a href="#">Log In</a>
+        </p>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/d22543f9f7.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="app.js"></script>
   </body>
 </html>
